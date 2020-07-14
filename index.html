@@ -238,20 +238,25 @@
         <h1>My Work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-          <button class="category__btn active">
+          <button class="category__btn active" data-filter="*">
             All <span class="category__count">8</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="front-end">
             Front-end <span class="category__count">3</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="back-end">
             Back-end <span class="category__count">4</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="mobile">
             Mobile <span class="category__count">1</span>
           </button>
           <div class="work__projects">
-            <a href="https://www.naver.com/" class="project" target="_blank">
+            <a
+              href="https://www.naver.com/"
+              class="project"
+              target="_blank"
+              data-type="front-end"
+            >
               <img
                 class="project__img"
                 src="imgs/projects/naverhomepage.png"
@@ -262,7 +267,12 @@
                 <span>Clone coding with HTMl and CSS</span>
               </div>
             </a>
-            <a href="https://dict.naver.com/" class="project" target="_blank">
+            <a
+              href="https://dict.naver.com/"
+              class="project"
+              target="_blank"
+              data-type="back-end"
+            >
               <img
                 class="project__img"
                 src="imgs/projects/DICTIONARY.png"
@@ -273,7 +283,12 @@
                 <span>HTML, CSS with media query</span>
               </div>
             </a>
-            <a href="https://map.naver.com/v5/" class="project" target="_blank">
+            <a
+              href="https://map.naver.com/v5/"
+              class="project"
+              target="_blank"
+              data-type="mobile"
+            >
               <img
                 class="project__img"
                 src="imgs/projects/NAVER MAPS.png"
@@ -284,7 +299,12 @@
                 <span>Responsive map with JS</span>
               </div>
             </a>
-            <a href="https://www.youtube.com/" class="project" target="_blank">
+            <a
+              href="https://www.youtube.com/"
+              class="project"
+              target="_blank"
+              data-type="front-end"
+            >
               <img
                 class="project__img"
                 src="imgs/projects/YOUTUBE.png"
@@ -295,7 +315,12 @@
                 <span>Clone coding with HTMl and CSS</span>
               </div>
             </a>
-            <a href="https://map.naver.com/v5/" class="project" target="_blank">
+            <a
+              href="https://map.naver.com/v5/"
+              class="project"
+              target="_blank"
+              data-type="mobile"
+            >
               <img
                 class="project__img"
                 src="imgs/projects/NAVER MAPS.png"
@@ -306,7 +331,12 @@
                 <span>Responsive map with JS</span>
               </div>
             </a>
-            <a href="https://dict.naver.com/" class="project" target="_blank">
+            <a
+              href="https://dict.naver.com/"
+              class="project"
+              target="_blank"
+              data-type="back-end"
+            >
               <img
                 class="project__img"
                 src="imgs/projects/DICTIONARY.png"
@@ -317,7 +347,12 @@
                 <span>HTML, CSS with media query</span>
               </div>
             </a>
-            <a href="https://www.youtube.com/" class="project" target="_blank">
+            <a
+              href="https://www.youtube.com/"
+              class="project"
+              target="_blank"
+              data-type="front-end"
+            >
               <img
                 class="project__img"
                 src="imgs/projects/YOUTUBE.png"
@@ -332,6 +367,7 @@
               href="https://developer.mozilla.org/en-US/docs/Web/CSS/opacity"
               class="project"
               target="_blank"
+              data-type="back-end"
             >
               <img
                 class="project__img"
@@ -419,7 +455,7 @@
     </section>
 
     <!-- Arrow up -->
-    <button class="arrow-up" data-link="#home">
+    <button class="arrow-up">
       <i class="fas fa-arrow-up"></i>
     </button>
   </body>
