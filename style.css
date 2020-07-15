@@ -108,6 +108,8 @@ p {
 /* Navbar */
 #navbar {
   position: fixed;
+  right: 0px;
+  left: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -129,6 +131,7 @@ p {
 }
 .navbar__menu {
   display: flex;
+  margin-right: 20px;
 }
 
 .navbar__menu__item {
@@ -165,6 +168,8 @@ p {
 .home__avatar {
   border-radius: 50%;
   border: 2px solid var(--color-light-white);
+  width: 250px;
+  height: 250px;
 }
 
 .home__tilte,
@@ -457,9 +462,12 @@ p {
   border-radius: 50%;
 }
 
-.testimonial__avatar:nth-child(odd),
-.testimonial__avatar:nth-child(even) {
+.testimonial__avatar:nth-child(odd) {
   margin-right: 40px;
+}
+
+.testimonial__avatar:nth-child(even) {
+  margin-left: 40px;
 }
 
 .testimonial__speech__bubble {
